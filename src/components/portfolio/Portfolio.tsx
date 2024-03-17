@@ -58,7 +58,7 @@ function Portfolio() {
         "This is my latest project so far. It was intended to show case my different skills.",
       technologies: ["ReactTS", "Sass", "Framer motion"],
       link: "https://ssl-popatsy.netlify.app/",
-      github: "https://github.com/SahyLiana/ProjectFolder",
+      github: "https://github.com/SahyLiana/PortfolioTS",
     },
   ];
   const headVariants = {
