@@ -1,0 +1,77 @@
+.education {
+  padding-bottom: 30px;
+  height: 120vh;
+  // scroll-snap-align: center;
+  //   width: 100vw;
+  // background-color: rgb(5, 0, 22);
+  .education-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    max-width: 1400px;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 100px 50px 0 200px;
+    .education-text {
+      max-width: 700px;
+      span {
+        color: rgb(206, 119, 4);
+      }
+      h1 {
+        font-size: 20px;
+        color: whitesmoke;
+        // color: rgb(206, 119, 4);
+        // margin: 0 auto 20px auto;
+        background-color: rgba(167, 165, 165, 0.15);
+        width: fit-content;
+        padding: 10px;
+
+        border-radius: 8px;
+      }
+      h2 {
+        color: rgb(5, 211, 234);
+        // font-size: 25px;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        font-size: 40px;
+        padding: 0;
+        margin: 20px 0 15px 0;
+      }
+      p {
+        letter-spacing: 0.2em;
+        color: rgb(167, 165, 165);
+        margin: 0;
+        line-height: 1.8em;
+        font-size: 15px;
+      }
+      a {
+        display: block;
+        margin-top: 20px;
+        color: rgb(206, 119, 4);
+        // color: blueviolet;
+        font-size: 15px;
+        border: 2px solid rgb(206, 119, 4);
+        width: fit-content;
+        padding: 10px 30px;
+        border-radius: 10px;
+        transition: all 0.5s;
+        &:hover {
+          color: aqua;
+          border-radius: 0;
+          border: 2px solid aqua;
+        }
+      }
+    }
+    .bar {
+      width: 1px;
+      height: 300px;
+      background-color: aliceblue;
+    }
+    img {
+      // transform: rotate(-3deg);
+      // border-radius: 10px;
+      filter: brightness(80%);
+      width: 800px;
+      height: 350px;
+    }
+  }
+}

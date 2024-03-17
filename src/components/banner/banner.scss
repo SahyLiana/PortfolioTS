@@ -1,0 +1,78 @@
+.banner {
+  height: 100vh;
+  // scroll-snap-align: center;
+  display: flex;
+  align-items: center;
+  // background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  //   url("../../assets/bgdark.jpg");
+  // background-repeat: no-repeat;
+  // background-size: 100% 100%;
+  // background-attachment: fixed;
+  // // filter: brightness(50%);
+  // background-position: center;
+  // background-color: rgb(37, 36, 36);
+  //   background-color: rgb(47, 45, 45);
+  .banner-content {
+    // background-color: blue;
+    margin: 0 auto;
+    min-width: 1300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    .banner-intro {
+      flex: 1;
+      margin-right: auto;
+      // width: 90%;
+      //   max-width: 900px;
+      //   text-align: center;
+      color: rgb(167, 165, 165);
+      .intro {
+        font-size: 70px;
+        padding: 0;
+        margin: 10px 0px 5px 0;
+        span {
+          font-size: 80px;
+          margin: 0;
+          color: rgb(206, 119, 4);
+        }
+      }
+
+      .bar {
+        width: 50%;
+        background-color: aqua;
+        height: 1px;
+        margin-top: 20px;
+      }
+      .university {
+        margin: 20px 0 0 0;
+        padding: 0;
+        font-size: 25px;
+      }
+      .btn-group {
+        display: flex;
+        gap: 15px;
+        .link-btn {
+          display: block;
+          margin-top: 15px;
+          color: rgb(206, 119, 4);
+          font-size: 18px;
+          border: 2px solid rgb(206, 119, 4);
+          width: fit-content;
+          padding: 10px 35px;
+          border-radius: 10px;
+          transition: all 0.5s;
+          &:hover {
+            color: aqua;
+            border-radius: 0;
+            border: 2px solid aqua;
+          }
+        }
+      }
+    }
+    img {
+      width: 300px;
+      filter: brightness(30%);
+    }
+  }
+}

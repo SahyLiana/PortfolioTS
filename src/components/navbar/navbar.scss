@@ -1,0 +1,43 @@
+.navbar {
+  position: fixed;
+  z-index: 2;
+  box-shadow: 1px 1px 15px 1px rgba(28, 27, 27, 0.6);
+  top: 2%;
+  left: 5%;
+  right: 5%;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1400px;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 25px;
+  border-radius: 50px;
+  background-color: rgba(72, 73, 74, 0.1);
+  img {
+    margin-right: auto;
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+  }
+
+  ul {
+    display: flex;
+    gap: 10px;
+    border: 0.5px solid rgba(181, 119, 5, 0.5);
+    padding: 15px 25px;
+    border-radius: 40px;
+    li {
+      list-style: none;
+      a {
+        font-size: 14px;
+        text-decoration: none;
+        color: rgb(145, 142, 142);
+        transition: all 0.5s;
+        &:hover {
+          //   color: rgb(181, 119, 5);
+          color: whitesmoke;
+        }
+      }
+    }
+  }
+}

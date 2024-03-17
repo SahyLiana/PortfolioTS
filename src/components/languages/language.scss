@@ -1,0 +1,54 @@
+.languages {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  // align-items: center;
+  // justify-content: center;
+
+  .languages-container {
+    min-width: 800px;
+    padding: 0px 0 200px 0;
+    margin: 0 auto;
+
+    h1 {
+      text-align: center;
+      font-size: 20px;
+      color: whitesmoke;
+      // color: rgb(206, 119, 4);
+      margin: 0 auto 20px auto;
+      background-color: rgba(167, 165, 165, 0.15);
+      width: fit-content;
+      padding: 10px;
+
+      border-radius: 8px;
+    }
+    .language-intro {
+      text-align: center;
+      color: rgb(5, 211, 234);
+      // font-size: 25px;
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      font-size: 40px;
+      padding: 0;
+      margin: 0 0 40px 0;
+    }
+    .display-lang {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      .display-line {
+        display: flex;
+        // width: 100%;
+        align-items: center;
+        .lang-text {
+          // flex: 1;
+          width: 30%;
+        }
+        .progress {
+          // width: 100%;
+          flex: 1;
+          // display: block;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+.experience {
+  // height: 100vh;
+  // scroll-snap-align: center;
+  //   width: 100vw;
+  // background-color: rgb(5, 0, 22);
+  .experience-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 100px 0 200px 0;
+    .experience-intro {
+      display: flex;
+      flex-direction: column;
+      // justify-content: center;
+      // align-items: center;
+      margin: 0 auto 20px auto;
+      text-align: center;
+      max-width: 700px;
+      h1 {
+        // font-size: 40px;
+        font-size: 20px;
+        color: whitesmoke;
+        // color: rgb(206, 119, 4);
+        margin: 0 auto 20px auto;
+        background-color: rgba(167, 165, 165, 0.15);
+        width: fit-content;
+        padding: 10px;
+        border-radius: 8px;
+        // padding: 0;
+      }
+      .experience-text {
+        color: rgb(5, 211, 234);
+        // font-size: 25px;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        font-size: 40px;
+        padding: 0;
+        margin: 0 0 15px 0;
+      }
+    }
+    .timeline {
+      ul {
+        margin: 0;
+        padding: 15px;
+        line-height: 30px;
+      }
+    }
+  }
+}
