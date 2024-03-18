@@ -62,7 +62,7 @@ function About() {
               Transforming <span style={{ fontWeight: "bold" }}>Visions </span>
               into <span style={{ fontWeight: "bold" }}>Reality</span>
             </p>
-            <p>
+            <p className="intro">
               I'm an Undergraduate Student majoring{" "}
               <span style={{ color: "rgb(206, 119, 4)" }}>
                 Bachelor of Computer Science and Information Technology

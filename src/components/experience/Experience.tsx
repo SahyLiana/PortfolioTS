@@ -50,11 +50,11 @@ function Experience() {
             // icon={<WorkIcon />}
           >
             <h3
-              style={{
-                fontSize: "30px",
-                color: "whitesmoke",
-                marginBottom: "5px",
-              }}
+              // style={{
+              //   fontSize: "30px",
+              //   color: "whitesmoke",
+              //   marginBottom: "5px",
+              // }}
               className="vertical-timeline-element-title"
             >
               Internship
@@ -97,11 +97,11 @@ function Experience() {
             // icon={<WorkIcon />}
           >
             <h3
-              style={{
-                fontSize: "30px",
-                color: "whitesmoke",
-                marginBottom: "5px",
-              }}
+              // style={{
+              //   fontSize: "30px",
+              //   color: "whitesmoke",
+              //   marginBottom: "5px",
+              // }}
               className="vertical-timeline-element-title"
             >
               Dean of Computer Science's Assistant

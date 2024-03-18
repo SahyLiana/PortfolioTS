@@ -13,7 +13,7 @@
       text-align: center;
       h1 {
         // font-size: 40px;
-        font-size: 20px;
+        font-size: 1.3rem;
         color: whitesmoke;
         // color: rgb(206, 119, 4);
         margin: 0 auto 20px auto;
@@ -28,7 +28,7 @@
         color: rgb(5, 211, 234);
         // font-size: 25px;
         font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-        font-size: 40px;
+        font-size: 2.4rem;
         padding: 0;
         margin: 0 0 15px 0;
       }
@@ -38,6 +38,9 @@
       flex-wrap: wrap;
       gap: 20px;
       justify-content: center;
+      @media (max-width: 500px) {
+        gap: 10px;
+      }
 
       .skill-cart {
         display: flex;
@@ -49,8 +52,21 @@
         background-color: rgba(236, 242, 244, 0.1);
         padding: 20px 0;
         border-radius: 10px;
+        @media (max-width: 500px) {
+          padding: 10px 0;
+        }
+        img {
+          width: 50px;
+          @media (max-width: 500px) {
+            width: 35px;
+          }
+        }
         p {
           margin: 10px 0 0 0;
+          text-align: center;
+          @media (max-width: 500px) {
+            font-size: 0.8rem;
+          }
           // color: rgb(167, 165, 165);
         }
       }

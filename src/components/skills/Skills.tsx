@@ -166,7 +166,7 @@ function Skills() {
               custom={index}
               className="skill-cart"
             >
-              <img src={skill.src} width={50} />
+              <img src={skill.src} />
               <p>{skill.name}</p>
             </motion.div>
           ))}

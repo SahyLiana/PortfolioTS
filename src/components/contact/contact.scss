@@ -5,6 +5,10 @@
 
   // background-color: rgb(37, 36, 36);
   overflow-x: hidden;
+  overflow-y: hidden;
+  @media (max-width: 500px) {
+    height: auto;
+  }
   .contact-container {
     display: flex;
     height: 100%;
@@ -12,17 +16,28 @@
     align-items: center;
     justify-content: center;
     margin: auto;
+    @media (max-width: 500px) {
+      flex-wrap: wrap;
+      padding: 0 15px;
+    }
     .left-container {
       flex: 1;
       h1 {
-        font-size: 75px;
+        font-size: 5rem;
+        @media (max-width: 500px) {
+          font-size: 3.5rem;
+          margin: 15px 0;
+        }
       }
       .item {
         margin-bottom: 10px;
         h3 {
           padding: 0;
           margin: 0 0 5px 0;
-          font-size: 20px;
+          font-size: 1.4rem;
+          @media (max-width: 500px) {
+            font-size: 1.2rem;
+          }
         }
         p,
         a {
@@ -70,6 +85,9 @@
             border: 1px aqua solid;
             color: aqua;
             background-color: transparent;
+          }
+          @media (max-width: 500px) {
+            font-size: 17px;
           }
         }
       }

@@ -57,7 +57,7 @@ function Portfolio() {
       description:
         "This is my latest project so far. It was intended to show case my different skills.",
       technologies: ["ReactTS", "Sass", "Framer motion"],
-      link: "https://ssl-popatsy.netlify.app/",
+      link: undefined,
       github: "https://github.com/SahyLiana/PortfolioTS",
     },
   ];
