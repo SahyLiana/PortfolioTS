@@ -22,7 +22,7 @@ function Portfolio() {
         "This project was one of my first. It was intended to strenghen my knowledge in HTML/CSS,Javascript and the popular framwork Tailwind CSS. It is mobile responsive as the official website",
       technologies: ["HTML", "CSS", "JS", "Tailwind CSS"],
       link: "https://ssl-popatsy-oxford.netlify.app/",
-      github: undefined,
+      github: "https://github.com/SahyLiana/OxfordClone",
     },
     {
       image: Liverpool,
@@ -31,7 +31,7 @@ function Portfolio() {
         "This project has the same purpose and technology as my first project. It was intended to strenghen my knowledge in HTML/CSS,Javascript and the popular framwork Tailwind CSS. It is mobile responsive as the official website",
       technologies: ["HTML", "CSS", "JS", "Tailwind CSS"],
       link: "https://ssl-popatsy.netlify.app/",
-      github: undefined,
+      github: "https://github.com/SahyLiana/LiverpoolClone",
     },
     {
       image: Erp,

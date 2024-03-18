@@ -4,6 +4,10 @@
   // scroll-snap-align: center;
   //   width: 100vw;
   // background-color: rgb(5, 0, 22);
+  overflow-x: hidden;
+  @media (max-width: 500px) {
+    height: auto;
+  }
   .about-container {
     max-width: 1400px;
     margin: 0 auto;
