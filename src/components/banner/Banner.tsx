@@ -97,10 +97,7 @@ function Banner() {
             <a className="link-btn" href="#Contact">
               Contact
             </a>
-            <a
-              className="link-btn transcript"
-              href="http://localhost:5173/public/transcript.pdf"
-            >
+            <a className="link-btn transcript" href="transcript.pdf">
               My transcript
             </a>
           </div>

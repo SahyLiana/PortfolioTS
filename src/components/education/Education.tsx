@@ -72,9 +72,7 @@ function Education() {
             Client/Server Computing, Multimedia Technologies & Application
             Design, AI and ES etc...
           </p>
-          <a href="http://localhost:5173/public/transcript.pdf">
-            See Transcript
-          </a>
+          <a href="transcript.pdf">See Transcript</a>
         </motion.div>
         <motion.div
           variants={variants2}

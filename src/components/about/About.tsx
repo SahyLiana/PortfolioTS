@@ -71,7 +71,7 @@ function About() {
               ReactJS and ExpressJS, but still exploring other technologies and
               frameworks that catch my interest!
             </p>
-            <a href="http://localhost:5173/public/CV.pdf">Resume</a>
+            <a href="CV.pdf">Resume</a>
           </motion.div>
         </div>
       </div>
