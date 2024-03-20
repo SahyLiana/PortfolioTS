@@ -86,7 +86,7 @@ function Contact() {
   };
 
   return (
-    <div id="Contact" className="contact">
+    <section id="Contact" className="contact">
       <motion.div
         ref={ref}
         className="contact-container"
@@ -158,7 +158,7 @@ function Contact() {
           </motion.form>
         </motion.div>
       </motion.div>
-    </div>
+    </section>
   );
 }
 

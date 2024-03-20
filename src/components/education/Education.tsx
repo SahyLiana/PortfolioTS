@@ -42,7 +42,7 @@ function Education() {
     },
   };
   return (
-    <div id="Education" className="education">
+    <section id="Education" className="education">
       <div className="education-container">
         <motion.div
           variants={variants}
@@ -87,7 +87,7 @@ function Education() {
           src={education}
         />
       </div>
-    </div>
+    </section>
   );
 }
 

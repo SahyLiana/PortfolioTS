@@ -21,7 +21,7 @@ function Experience() {
     },
   };
   return (
-    <div id="Experience" className="experience">
+    <section id="Experience" className="experience">
       <motion.div
         variants={headVariants}
         initial="initial"
@@ -124,7 +124,7 @@ function Experience() {
         {/* <h1>Experience</h1>
         <p>Here is a quick summary of my most recent experience</p> */}
       </motion.div>
-    </div>
+    </section>
   );
 }
 

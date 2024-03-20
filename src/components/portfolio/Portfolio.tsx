@@ -89,7 +89,7 @@ function Portfolio() {
     }),
   };
   return (
-    <div id="Portfolio" className="portfolio">
+    <section id="Portfolio" className="portfolio">
       <div className="portfolio-container">
         <motion.div
           variants={headVariants}
@@ -144,7 +144,7 @@ function Portfolio() {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

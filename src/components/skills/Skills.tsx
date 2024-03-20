@@ -125,7 +125,7 @@ function Skills() {
     },
   };
   return (
-    <div id="Skills" className="skills">
+    <section id="Skills" className="skills">
       <motion.div
         variants={headVariants}
         initial="initial"
@@ -173,7 +173,7 @@ function Skills() {
         </div>
       </motion.div>
       {/* <div className="bar"></div> */}
-    </div>
+    </section>
   );
 }
 

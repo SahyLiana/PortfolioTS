@@ -3,7 +3,11 @@ import Photo from "../../assets/li.jpg";
 import { useEffect, useState } from "react";
 // import { NavLink } from "react-router-dom";
 
-function Navbar() {
+interface Props {
+  activeSection: String;
+}
+
+function Navbar({ activeSection }: Props) {
   const links: String[] = [
     "Home",
     "About",
@@ -29,7 +33,8 @@ function Navbar() {
       window.removeEventListener("scroll", changeFunction);
     };
   }, []);
-  console.log(changeBackground);
+  console.log(activeSection);
+  // console.log(changeBackground);
   return (
     <div className="navbar">
       <a href="#Home">
@@ -39,7 +44,12 @@ function Navbar() {
       <ul className={changeBackground ? "sticky" : ""}>
         {links.map((link, index) => (
           <li key={index}>
-            <a href={`#${link}`}>{link}</a>
+            <a
+              href={`#${link}`}
+              className={activeSection == link ? "active" : ""}
+            >
+              {link}
+            </a>
           </li>
         ))}
       </ul>

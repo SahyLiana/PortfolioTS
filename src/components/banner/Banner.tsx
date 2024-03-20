@@ -53,7 +53,7 @@ function Banner() {
   };
 
   return (
-    <div id="Home" className="banner">
+    <section id="Home" className="banner">
       <div className="banner-content">
         {/* <AnimatePresence> */}
         <motion.div
@@ -111,7 +111,7 @@ function Banner() {
           // exit="exit"
         />
       </div>
-    </div>
+    </section>
   );
 }
 

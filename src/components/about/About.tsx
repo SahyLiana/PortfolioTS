@@ -42,7 +42,7 @@ function About() {
     },
   };
   return (
-    <div id="About" className="about">
+    <section id="About" className="about">
       <div className="about-container">
         <div className="about-content">
           <motion.img
@@ -75,7 +75,7 @@ function About() {
           </motion.div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
