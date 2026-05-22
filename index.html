@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SANDAMAHERY Sahy Liana | Portfolio</title>
+  <meta name="description" content="Portfolio of Sandamahery Sahy Liana — Web Developer, Master CS Student, Pianist" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="nav" id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">S<span class="gold">.</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#hero" class="nav-link active-nav">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <i class="fas fa-moon"></i>
+          <i class="fas fa-sun"></i>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg"></div>
+    <div class="piano-keyboard" id="heroKeyboard">
+      <div class="key white" style="--i:0"></div>
+      <div class="key black" style="--i:1"></div>
+      <div class="key white" style="--i:2"></div>
+      <div class="key black" style="--i:3"></div>
+      <div class="key white" style="--i:4"></div>
+      <div class="key white" style="--i:5"></div>
+      <div class="key black" style="--i:6"></div>
+      <div class="key white" style="--i:7"></div>
+      <div class="key black" style="--i:8"></div>
+      <div class="key white" style="--i:9"></div>
+      <div class="key black" style="--i:10"></div>
+      <div class="key white" style="--i:11"></div>
+      <div class="key white" style="--i:12"></div>
+      <div class="key black" style="--i:13"></div>
+      <div class="key white" style="--i:14"></div>
+      <div class="key black" style="--i:15"></div>
+      <div class="key white" style="--i:16"></div>
+      <div class="key black" style="--i:17"></div>
+      <div class="key white" style="--i:18"></div>
+      <div class="key white" style="--i:19"></div>
+      <div class="key black" style="--i:20"></div>
+      <div class="key white" style="--i:21"></div>
+      <div class="key black" style="--i:22"></div>
+      <div class="key white" style="--i:23"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-greeting" style="--i:0">Hello, I'm</p>
+      <h1 class="hero-name" style="--i:1">Sandamahery<br /><span class="gold">Sahy Liana</span></h1>
+      <p class="hero-title" style="--i:2">Web Developer &middot; Master CS Student &middot; Pianist</p>
+      <p class="hero-tagline" style="--i:3">Crafting elegant digital experiences with the precision of a classical composition</p>
+      <div class="hero-cta" style="--i:4">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="assets/CV.pdf" class="btn btn-outline" download><i class="fas fa-download"></i> Download CV</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">About Me</h2>
+        <div class="section-underline"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-image reveal" style="--i:0">
+          <div class="about-image-frame">
+            <img src="assets/Me/me2.png" alt="Sandamahery Sahy Liana" loading="lazy" />
+          </div>
+          <div class="about-piano-badge">
+            <i class="fas fa-music"></i>
+            <span>Classical Pianist</span>
+          </div>
+        </div>
+        <div class="about-content reveal" style="--i:1">
+          <p>
+            I'm a <strong>Master of Computer Science</strong> student at IT University, Madagascar, 
+            and a <strong>First Class</strong> graduate in Computer Science & Information Technology from 
+            Kampala University, Uganda. Originally from <strong>Madagascar</strong>, I bring a unique 
+            perspective to every project I undertake.
+          </p>
+          <p>
+            Beyond code, I'm a classical pianist — a discipline that taught me precision, 
+            patience, and the beauty of structure. Every system I build follows the same philosophy: 
+            clean architecture, elegant execution, and attention to every note.
+          </p>
+          <p>
+            I'm passionate about full-stack development, system design, and building applications 
+            that make a real difference. Currently seeking opportunities where I can contribute 
+            to impactful technology — ideally at companies that value craft as much as I do.
+          </p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-number">3</span>
+              <span class="stat-label">Degrees</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">8+</span>
+              <span class="stat-label">Projects</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">20+</span>
+              <span class="stat-label">Technologies</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section" id="education">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">Education Background</h2>
+        <div class="section-underline"></div>
+      </div>
+      <div class="edu-grid">
+        <div class="edu-card reveal" style="--i:0">
+          <div class="edu-card-image">
+            <img src="assets/Me/education.jpg" alt="IT University Madagascar" loading="lazy" />
+          </div>
+          <div class="edu-card-body">
+            <span class="edu-year">2025 &ndash; Present</span>
+            <h3 class="edu-degree">Master of Computer Science</h3>
+            <p class="edu-school">IT University &middot; Madagascar</p>
+            <p class="edu-desc">Currently pursuing advanced studies in computer science, focusing on software engineering and system architecture.</p>
+          </div>
+        </div>
+        <div class="edu-card reveal" style="--i:1">
+          <div class="edu-card-image">
+            <div class="edu-img-placeholder" style="background: linear-gradient(135deg, #1a1a2e, #16213e);">
+              <span class="edu-img-icon"><i class="fas fa-graduation-cap"></i></span>
+            </div>
+          </div>
+          <div class="edu-card-body">
+            <span class="edu-year">2021 &ndash; 2024</span>
+            <h3 class="edu-degree">Bachelor of Computer Science &amp; Information Technology</h3>
+            <p class="edu-school">Kampala University &middot; Uganda</p>
+            <p class="edu-desc">Graduated with First Class Honours. Built a strong foundation in programming, databases, networking, and information systems.</p>
+          </div>
+        </div>
+        <div class="edu-card reveal" style="--i:2">
+          <div class="edu-card-image">
+            <div class="edu-img-placeholder" style="background: linear-gradient(135deg, #2d1b69, #1a1a2e);">
+              <span class="edu-img-icon"><i class="fas fa-palette"></i></span>
+            </div>
+          </div>
+          <div class="edu-card-body">
+            <span class="edu-year">2019 &ndash; 2021</span>
+            <h3 class="edu-degree">Bachelor of Computer Arts Technology</h3>
+            <p class="edu-school">理学院 &middot; China</p>
+            <p class="edu-desc">Bridged technology and creative arts. Developed skills in digital media, design principles, and creative computing.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">Skills &amp; Technologies</h2>
+        <div class="section-underline"></div>
+        <p class="section-subtitle">The tools I use to bring ideas to life</p>
+      </div>
+      <div class="skills-container reveal">
+        <div class="skill-item" style="--i:0"><span class="skill-name">HTML</span></div>
+        <div class="skill-item" style="--i:1"><span class="skill-name">CSS</span></div>
+        <div class="skill-item" style="--i:2"><span class="skill-name">JavaScript</span></div>
+        <div class="skill-item" style="--i:3"><span class="skill-name">TypeScript</span></div>
+        <div class="skill-item" style="--i:4"><span class="skill-name">React</span></div>
+        <div class="skill-item" style="--i:5"><span class="skill-name">Tailwind CSS</span></div>
+        <div class="skill-item" style="--i:6"><span class="skill-name">Bootstrap 5</span></div>
+        <div class="skill-item" style="--i:7"><span class="skill-name">Sass</span></div>
+        <div class="skill-item" style="--i:8"><span class="skill-name">Node.js</span></div>
+        <div class="skill-item" style="--i:9"><span class="skill-name">Express</span></div>
+        <div class="skill-item" style="--i:10"><span class="skill-name">NestJS</span></div>
+        <div class="skill-item" style="--i:11"><span class="skill-name">MongoDB</span></div>
+        <div class="skill-item" style="--i:12"><span class="skill-name">Prisma</span></div>
+        <div class="skill-item" style="--i:13"><span class="skill-name">SQLite</span></div>
+        <div class="skill-item" style="--i:14"><span class="skill-name">PHP</span></div>
+        <div class="skill-item" style="--i:15"><span class="skill-name">WebSocket</span></div>
+        <div class="skill-item" style="--i:16"><span class="skill-name">Zustand</span></div>
+        <div class="skill-item" style="--i:17"><span class="skill-name">Framer Motion</span></div>
+        <div class="skill-item" style="--i:18"><span class="skill-name">Docker</span></div>
+        <div class="skill-item" style="--i:19"><span class="skill-name">Git</span></div>
+        <div class="skill-item" style="--i:20"><span class="skill-name">Joomla</span></div>
+        <div class="skill-item" style="--i:21"><span class="skill-name">Android Studio</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">Experience</h2>
+        <div class="section-underline"></div>
+      </div>
+      <div class="exp-card reveal">
+        <div class="exp-card-left">
+          <div class="exp-icon"><i class="fas fa-user-tie"></i></div>
+          <div class="exp-line"></div>
+        </div>
+        <div class="exp-card-body">
+          <span class="exp-year">2024</span>
+          <h3 class="exp-role">Dean of Computer Science's Assistant</h3>
+          <p class="exp-org">Kampala University &middot; Uganda</p>
+          <ul class="exp-duties">
+            <li>Coordinated academic events, faculty meetings, and departmental communications</li>
+            <li>Prepared presentations, documentation, and administrative assignments</li>
+            <li>Supported the Dean in day-to-day operations of the Computer Science department</li>
+          </ul>
+        </div>
+      </div>
+      <div class="exp-card reveal" style="--i:1">
+        <div class="exp-card-left">
+          <div class="exp-icon"><i class="fas fa-briefcase"></i></div>
+          <div class="exp-line"></div>
+        </div>
+        <div class="exp-card-body">
+          <span class="exp-year">Dec 2022 &ndash; Feb 2023</span>
+          <h3 class="exp-role">Intern &amp; Junior Developer</h3>
+          <p class="exp-org">Urban Host IT Ltd &middot; Uganda</p>
+          <p class="exp-mentor">Advisor: Mr Egessa Micheal &middot; Supervisor: Ms Brenda Kintu Nakirya</p>
+          <ul class="exp-duties">
+            <li>Software development using PHP, WordPress, Joomla and Git</li>
+            <li>Online Coffee Shop mobile application using Android Studio</li>
+            <li>Chipper Cash web interface using Bootstrap 5</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">Projects</h2>
+        <div class="section-underline"></div>
+        <p class="section-subtitle">A selection of work that reflects my craft</p>
+      </div>
+      <div class="projects-grid">
+
+        <div class="project-card reveal" style="--i:0">
+          <div class="project-image">
+            <img src="assets/projects%20photos/oxford.jpg" alt="Oxford Clone" loading="lazy" />
+            <div class="project-overlay">
+              <div class="project-tech">
+                <span>HTML</span><span>CSS</span><span>JS</span><span>Tailwind CSS</span>
+              </div>
+              <div class="project-links">
+                <a href="https://ssl-popatsy-oxford.netlify.app/" target="_blank" rel="noopener" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                <a href="https://github.com/SahyLiana/OxfordClone" target="_blank" rel="noopener" class="project-link"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-name">Oxford Clone</h3>
+            <p class="project-desc">Responsive homepage clone of the Oxford University website. Built to strengthen HTML/CSS/JS and Tailwind CSS mastery.</p>
+          </div>
+        </div>
+
+        <div class="project-card reveal" style="--i:1">
+          <div class="project-image">
+            <img src="assets/projects%20photos/liverpool.jpg" alt="Liverpool Clone" loading="lazy" />
+            <div class="project-overlay">
+              <div class="project-tech">
+                <span>HTML</span><span>CSS</span><span>JS</span><span>Tailwind CSS</span>
+              </div>
+              <div class="project-links">
+                <a href="https://ssl-popatsy.netlify.app/" target="_blank" rel="noopener" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                <a href="https://github.com/SahyLiana/LiverpoolClone" target="_blank" rel="noopener" class="project-link"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-name">Liverpool Clone</h3>
+            <p class="project-desc">Mobile-responsive Liverpool FC homepage clone. Reinforced responsive design and Tailwind CSS proficiency.</p>
+          </div>
+        </div>
+
+        <div class="project-card reveal" style="--i:2">
+          <div class="project-image">
+            <img src="assets/projects%20photos/erp.jpg" alt="Kampala University ERP" loading="lazy" />
+            <div class="project-overlay">
+              <div class="project-tech">
+                <span>HTML</span><span>CSS</span><span>JS</span><span>Bootstrap 5</span><span>PHP</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/SahyLiana/university-project" target="_blank" rel="noopener" class="project-link"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-name">Kampala University ERP</h3>
+            <p class="project-desc">ERP system tackling the university's legacy system challenges. Enhanced security, role-based access for lecturers and stakeholders.</p>
+          </div>
+        </div>
+
+        <div class="project-card reveal" style="--i:3">
+          <div class="project-image">
+            <img src="assets/projects%20photos/findIpic.jpg" alt="MERN E-Commerce" loading="lazy" />
+            <div class="project-overlay">
+              <div class="project-tech">
+                <span>React</span><span>MongoDB</span><span>Express</span><span>Node.js</span><span>Sass</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/SahyLiana/ProjectFolder" target="_blank" rel="noopener" class="project-link"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-name">MERN E-Commerce (Final Year)</h3>
+            <p class="project-desc">Full e-commerce platform for electronics with AI chatbot, Google Maps integration, QR/bar code scanning, and admin analytics dashboard with ApexCharts.</p>
+          </div>
+        </div>
+
+        <div class="project-card reveal" style="--i:4">
+          <div class="project-image">
+            <img src="assets/projects%20photos/book.png" alt="Book App Store" loading="lazy" />
+            <div class="project-overlay">
+              <div class="project-tech">
+                <span>ReactTS</span><span>Tailwind</span><span>NestJS</span><span>MongoDB</span><span>WebSocket</span><span>Zustand</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/SahyLiana/BookStore" target="_blank" rel="noopener" class="project-link"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-name">Book App Store</h3>
+            <p class="project-desc">Real-time book store application leveraging WebSocket for live updates. Full-stack with NestJS backend and React frontend.</p>
+          </div>
+        </div>
+
+        <div class="project-card reveal" style="--i:5">
+          <div class="project-image">
+            <img src="assets/projects%20photos/album.png" alt="Album App" loading="lazy" />
+            <div class="project-overlay">
+              <div class="project-tech">
+                <span>ReactTS</span><span>Tailwind</span><span>NestJS</span><span>MongoDB</span><span>Framer Motion</span><span>Zustand</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/SahyLiana/AlbumApp" target="_blank" rel="noopener" class="project-link"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-name">Album App</h3>
+            <p class="project-desc">Image album application with smooth Framer Motion animations and NestJS file upload. State management via Zustand.</p>
+          </div>
+        </div>
+
+        <div class="project-card reveal" style="--i:6">
+          <div class="project-image">
+            <div class="project-img-placeholder">
+              <i class="fas fa-code"></i>
+              <span>In Progress</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-name">PortfolioTS</h3>
+            <p class="project-desc">My latest project &mdash; a showcase of my skills built with React TypeScript, Sass, and Framer Motion animations.</p>
+            <div class="project-tech-row">
+              <span>ReactTS</span><span>Sass</span><span>Framer Motion</span>
+            </div>
+            <a href="https://github.com/SahyLiana/PortfolioTS" target="_blank" rel="noopener" class="project-link-icon"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+
+        <div class="project-card reveal" style="--i:7">
+          <div class="project-image">
+            <img src="assets/projects%20photos/garage.png" alt="Royal Garage" loading="lazy" />
+            <div class="project-overlay">
+              <div class="project-tech">
+                <span>NestJS</span><span>React</span><span>Prisma</span><span>SQLite</span><span>Tailwind</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/SahyLiana/ProjectFolder" target="_blank" rel="noopener" class="project-link"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-name">Royal Garage Management System</h3>
+            <p class="project-desc">Full-stack garage management app with JWT auth, role-based access (Admin/Mechanic/Client), appointment scheduling, and analytics dashboard.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section--dark" id="contact">
+    <div class="container">
+      <div class="section-header reveal light">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="section-underline"></div>
+        <p class="section-subtitle">I'm currently open to opportunities at forward-thinking companies</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal" style="--i:0">
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <h4>Email</h4>
+              <a href="mailto:lianasandramahery@gmail.com">lianasandramahery@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-phone"></i></div>
+            <div>
+              <h4>Phone</h4>
+              <a href="tel:+261321746823">+261 32 17 468 23</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fab fa-linkedin-in"></i></div>
+            <div>
+              <h4>LinkedIn</h4>
+              <a href="https://www.linkedin.com/in/sandamaherysahyliana/" target="_blank" rel="noopener">sandamaherysahyliana</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fab fa-github"></i></div>
+            <div>
+              <h4>GitHub</h4>
+              <a href="https://github.com/SahyLiana" target="_blank" rel="noopener">SahyLiana</a>
+            </div>
+          </div>
+          <div class="contact-downloads">
+            <a href="assets/CV.pdf" class="btn btn-primary" download><i class="fas fa-download"></i> Download CV</a>
+            <a href="assets/transcript.pdf" class="btn btn-outline" download><i class="fas fa-download"></i> Transcript</a>
+          </div>
+        </div>
+        <form class="contact-form reveal" style="--i:1" id="contactForm">
+          <div class="form-group">
+            <input type="text" id="formName" name="name" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <input type="email" id="formEmail" name="email" placeholder="Your Email" required />
+          </div>
+          <div class="form-group">
+            <input type="text" id="formSubject" name="subject" placeholder="Subject" />
+          </div>
+          <div class="form-group">
+            <textarea id="formMessage" name="message" rows="5" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block" id="formSubmit">
+            <span id="formBtnText">Send Message</span>
+            <i class="fas fa-paper-plane" id="formBtnIcon"></i>
+          </button>
+          <p class="form-feedback" id="formFeedback"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <p class="footer-text">&copy; <span id="year"></span> Sandamahery Sahy Liana. Built with precision, like a sonata.</p>
+        <div class="footer-social">
+          <a href="https://github.com/SahyLiana" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/sandamaherysahyliana/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="mailto:lianasandramahery@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
